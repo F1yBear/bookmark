@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import request from './http/request'
 let data = [];
 let sites = ref(data)
-request.get('/data.json')
+request.get(import.meta.env.VITE_BASE_URL+'data.json')
   .then(function (response) {
     data = response.data;
     sites.value = eval(data);
