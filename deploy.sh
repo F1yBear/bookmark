@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 进入构建文件夹
-cp -r ./dist  ./docs
+#cp -r ./dist  ./docs
 
 # 放置 .nojekyll 以绕过 Jekyll 的处理。
 echo > .nojekyll
@@ -20,7 +20,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
-git push 
+git push -u origin-github
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
