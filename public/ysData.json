@@ -53,6 +53,26 @@
             {
                 "name": "本地consul配置",
                 "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
+            },
+            {
+                "name": "dev-rabbitmq",
+                "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
+            },
+            {
+                "name": "qa-rabbitmq",
+                "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
+            },
+            {
+                "name": "石墨新人文档",
+                "url": "https://shimo.im/docs/Ee32MMw4OQCJlwA2"
+            },
+            {
+                "name": "小禹入职指南(西安)",
+                "url": "https://shimo.im/docs/m4kMLBNK4zFlDyqD"
+            },
+            {
+                "name": "行政答疑",
+                "url": "https://shimo.im/docs/m4kMLBNK4zFlDyqD"
             }
         ]
     },
@@ -126,23 +146,11 @@
         ]
     },
     {
-        "groupName": "测试网站",
+        "groupName": "工具网站",
         "sites": [
             {
-                "name": "dev-saas",
-                "url": "https://dev-saas.boss.yushu.center",
-            },
-            {
-                "name": "qa-saas",
-                "url": "https://qa-saas.boss.yushu.center",
-            },
-            {
-                "name": "pre-saas",
-                "url": "https://pre-saas.boss.yushu.center",
-            },
-            {
-                "name": "prod-saas",
-                "url": "https://saas.boss.yushu.center",
+                "name": "百度翻译",
+                "url": "https://fanyi.baidu.com/"
             }
         ]
     }
