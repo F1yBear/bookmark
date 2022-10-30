@@ -12,7 +12,7 @@ margin: auto;
 position: static;
 left: 0px;
 top: 24px;
-width: 600px;
+width: 61.4%;
 height: 56px;
 display: flex;
 flex-direction: row;
@@ -67,10 +67,10 @@ box-sizing: border-box;
 .group-a-tag {
 display:inline-block;
 font-size: 18px;
-width: 200px;
+width: 316px;
 height: 48px;
 text-align: center;
-color: rgb(114, 143, 247);
+color: rgb(52 92 236);
 }
 .group-a {
 margin-top: 60px;

@@ -7,11 +7,11 @@ set -e
 npm run build
 
 # 放置 .nojekyll 以绕过 Jekyll 的处理。
-echo > .nojekyll
+echo > ./docs/nojekyll
 
 
 # 如果你要部署到自定义域名
-echo 'github.com/F1yBear/bookmark' > ./docs/CNAME
+echo 'f1ybear.github.io/bookmark/' > ./docs/CNAME
 
 
 git add -A

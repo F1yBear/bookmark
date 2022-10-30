@@ -3,16 +3,20 @@ import { ref } from 'vue'
 import request from './http/request'
 let data = [];
 let sites = ref(data)
-request.get('/data.json')
+var req = getRequest();
+request.get((req.file?req.file:"ys")+'Data.json')
   .then(function (response) {
     data = response.data;
     sites.value = eval(data);
   });
 
-let inputText = ref("")
+let inputText = ref(req.keyword)
 function increment() {
   sites.value = eval(data);
   sites.value = sites.value.filter(item => {
+    if (inputText.value.trim() == "") {
+      return true;
+    }
     var matchGroupName = item.groupName.indexOf(inputText.value) != -1;
     if (matchGroupName) {
       return matchGroupName;
@@ -20,6 +24,22 @@ function increment() {
     item.sites = item.sites.filter(site => site.name.indexOf(inputText.value) != -1)
     return item.sites.length > 0;
   });
+}
+
+
+function getRequest() {
+   //获取url中"?"符后的字串
+  var url = decodeURI(window.location.search);
+  var theRequest = new Object();
+  if (url.indexOf("?") != -1) {
+    var str = url.substring(1);
+    var strs = str.split("&");
+    for (var i = 0; i < strs.length; i++) {
+      var kv = strs[i].split("=")
+      theRequest[kv[0]] = kv[1];
+    }
+  }
+  return theRequest;
 }
 </script>
 
