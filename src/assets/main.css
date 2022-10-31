@@ -71,6 +71,9 @@ width: 316px;
 height: 48px;
 text-align: center;
 color: rgb(52 92 236);
+height: 4em;
+line-height: 4em;
+overflow: hidden;
 }
 .group-a {
 margin-top: 60px;
@@ -80,3 +83,6 @@ margin: 2%;
   margin-top: 90px;
   margin-bottom: 10px;
 }
+.group-a-tag:hover {
+  background-color: rgb(235, 243, 243);
+  }
