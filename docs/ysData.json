@@ -151,6 +151,14 @@
             {
                 "name": "百度翻译",
                 "url": "https://fanyi.baidu.com/"
+            },
+            {
+                "name": "文本差异比对工具",
+                "url": "https://diff.buyaocha.com/"
+            },
+            {
+                "name": "json在线解析",
+                "url": "https://www.sojson.com/simple_json.html"
             }
         ]
     }
