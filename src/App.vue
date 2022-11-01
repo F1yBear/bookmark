@@ -6,13 +6,13 @@ let sites = ref(data)
 var req = getRequest();
 request.get((req.file?req.file:"ys")+'Data.json')
   .then(function (response) {
-    data = response.data;
-    sites.value = eval(data);
+    data = eval(response.data);
+    sites.value = JSON.parse(JSON.stringify(data));
   });
 
 let inputText = ref(req.keyword)
 function increment() {
-  sites.value = eval(data);
+  sites.value = JSON.parse(JSON.stringify(data));
   sites.value = sites.value.filter(item => {
     if (inputText.value.trim() == "") {
       return true;
