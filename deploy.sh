@@ -19,3 +19,4 @@ git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
 git push origin-github master
+git push origin master

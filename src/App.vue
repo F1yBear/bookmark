@@ -2,9 +2,9 @@
 import { ref } from 'vue'
 import request from './http/request'
 let data = [];
-let sites = ref(data)
+let sites = ref(data);
 var req = getRequest();
-request.get((req.file?req.file:"ys")+'Data.json')
+request.get((req.file?req.file:"ys")+'Data.json?')
   .then(function (response) {
     data = eval(response.data);
     sites.value = JSON.parse(JSON.stringify(data));
