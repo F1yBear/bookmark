@@ -4,13 +4,14 @@ import request from './http/request'
 let data = [];
 let sites = ref(data);
 var req = getRequest();
+let inputText = ref(req.keyword)
 request.get((req.file?req.file:"ys")+'Data.json?')
   .then(function (response) {
     data = eval(response.data);
     sites.value = JSON.parse(JSON.stringify(data));
+    increment();
   });
 
-let inputText = ref(req.keyword)
 function increment() {
   sites.value = JSON.parse(JSON.stringify(data));
   sites.value = sites.value.filter(item => {
