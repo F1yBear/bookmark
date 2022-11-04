@@ -39,6 +39,10 @@
                 "url": "https://console.cloud.tencent.com/tsf/config-app?rid=8"
             },
             {
+                "name": "coding-api地址",
+                "url": "https://persagy2021.coding.net/p/boss/api-docs/8"
+            },
+            {
                 "name": "业务应用实例",
                 "url": "https://console.cloud.tencent.com/tsf/app?rid=8"
             },
