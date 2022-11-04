@@ -60,11 +60,11 @@
             },
             {
                 "name": "dev-rabbitmq",
-                "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
+                "url": "http://172.19.0.25:15672/#/"
             },
             {
                 "name": "qa-rabbitmq",
-                "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
+                "url": "http://172.19.0.25:15672/#/"
             },
             {
                 "name": "石墨新人文档",
