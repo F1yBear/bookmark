@@ -49,7 +49,7 @@ function getRequest() {
     <div id="input-div">
       <input id="search" type="search" v-on:keyup="increment" placeholder="请输入网站分组或网站名称" v-model="inputText" />
     </div>
-    <div id="box" v-for="site in sites">
+    <div class="box" v-for="site in sites">
       <div class="forshow middle">
         <div class="flex"></div>
         <div class="img_setH">{{ site.groupName }}</div>

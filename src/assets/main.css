@@ -8,17 +8,14 @@ input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
   color:rgb(212, 203, 203);
 }
 #search  {    
-margin: auto;
-position: static;
-left: 0px;
-top: 24px;
-width: 61.4%;
-height: 56px;
+margin: 5% auto;
+width: 80%;
 display: flex;
 flex-direction: row;
 padding: 8px;
 align-self: stretch;
-border-radius: 8px;
+height: 56px;
+border-radius: 28px;
 opacity: 1;
 background: #FFFFFF;
 box-sizing: border-box;
@@ -27,7 +24,11 @@ z-index: 1;
 flex-wrap: nowrap;
 padding-left: 21px;
 }
-
+body {
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
 #box {
 width: 90%;
 margin: auto;
@@ -67,7 +68,8 @@ box-sizing: border-box;
 .group-a-tag {
 display:inline-block;
 font-size: 18px;
-width: 316px;
+width: 25%;
+min-width: 260px;
 text-align: center;
 color: rgb(52 92 236);
 height: 2em;
@@ -84,4 +86,5 @@ margin: 2%;
 }
 .group-a-tag:hover {
   background-color: rgb(235, 243, 243);
+  border-radius: 6px;
   }
