@@ -15,7 +15,7 @@ request.get((req.file?req.file:"ys")+'Data.json?')
 function increment() {
   sites.value = JSON.parse(JSON.stringify(data));
   sites.value = sites.value.filter(item => {
-    if (inputText.value.trim() == "") {
+    if (trim(inputText.value) == "" || !inputText.value) {
       return true;
     }
     var matchGroupName = item.groupName.indexOf(inputText.value) != -1;
@@ -37,10 +37,17 @@ function getRequest() {
     var strs = str.split("&");
     for (var i = 0; i < strs.length; i++) {
       var kv = strs[i].split("=")
-      theRequest[kv[0]] = kv[1];
+      theRequest[kv[0]] = trim(kv[1]);
     }
   }
   return theRequest;
+}
+
+function trim(str) {
+   if(str){
+    return str.trim();
+   }
+   return str;
 }
 </script>
 
