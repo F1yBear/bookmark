@@ -9,7 +9,7 @@ switch (process.env.NODE_ENV) {
         break
     }
     case 'production':{
-        axios.defaults.baseURL = window.location.host +"/bookmark/"
+        axios.defaults.baseURL = "/bookmark/"
         break
     }
 }
