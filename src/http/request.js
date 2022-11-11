@@ -9,7 +9,7 @@ switch (process.env.NODE_ENV) {
         break
     }
     case 'production':{
-        axios.defaults.baseURL = "https://f1ybear.github.io/bookmark/"
+        axios.defaults.baseURL = window.location.host +"/bookmark/"
         break
     }
 }
