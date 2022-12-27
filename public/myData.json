@@ -47,8 +47,8 @@
                 "url": "https://console.cloud.tencent.com/smsv2/csms-template"
             },
             {
-                "name": "pom版本维护",
-                "url": "https://shimo.im/docs/aBAYVQZnz8F5vm3j"
+                "name": "nacos",
+                "url": "http://172.19.0.14/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=842fc67d-bcb3-4180-85bc-cc3d6968f02d&pageSize=&pageNo=&namespaceShowName=dev"
             },
             {
                 "name": "本地consul配置",
