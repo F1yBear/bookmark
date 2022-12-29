@@ -50,10 +50,7 @@
                 "name": "腾讯云短信模版",
                 "url": "https://console.cloud.tencent.com/smsv2/csms-template"
             },
-            {
-                "name": "nacos",
-                "url": "http://172.19.0.14/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=842fc67d-bcb3-4180-85bc-cc3d6968f02d&pageSize=&pageNo=&namespaceShowName=dev"
-            },
+       
             {
                 "name": "本地consul配置",
                 "url": "http://82.157.252.42:8500/ui/dc1/kv/config/"
@@ -83,7 +80,129 @@
                 "url": "https://shimo.im/mindmaps/m5kv90GzygioNqX0"
             }
         ]
-    },
+    }
+    ,
+    {
+        "groupName": "dev中间件",
+        "sites": [
+                {
+                "name": "nacos",
+                "url": "http://172.19.0.14/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=842fc67d-bcb3-4180-85bc-cc3d6968f02d&pageSize=&pageNo=&namespaceShowName=dev"
+            },
+            {
+                "name": "sentinel",
+                "url": "http://172.19.0.97"
+            },
+            {
+                "name": "skywalking",
+                "url": "http://172.19.0.44:8080/general"
+            },
+            {
+                "name": "springadmin",
+                "url": "http://172.19.0.97/paas-admin-server/login"
+            },
+            {
+                "name": "efk",
+                "url": "http://172.19.0.44:5601/"
+            },
+            {
+                "name": "xxl-job",
+                "url": "http://172.19.0.97/xxl-job-admin"
+            }
+        ]
+    }
+    ,
+    
+    {
+        "groupName": "qa中间件",
+        "sites": [
+                {
+                "name": "nacos",
+                "url": "http://172.19.0.14/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=e1c7fa4c-0a35-49f7-8c3b-69a752276ce4&pageSize=&pageNo=&namespaceShowName=test"
+            },
+            {
+                "name": "sentinel",
+                "url": "http://172.19.0.244"
+            },
+            {
+                "name": "skywalking",
+                "url": "http://172.19.0.44:8080/general"
+            },
+            {
+                "name": "springadmin",
+                "url": "http://172.19.0.244/paas-admin-server/login"
+            },
+            {
+                "name": "efk",
+                "url": "http://172.19.0.44:5601/"
+            },
+            {
+                "name": "xxl-job",
+                "url": "http://172.19.0.244/xxl-job-admin"
+            }
+        ]
+    }
+    ,
+        {
+        "groupName": "yufa中间件",
+        "sites": [
+                {
+                "name": "nacos",
+                "url": "http://172.17.0.25:8080/nacos/#/login"
+            },
+            {
+                "name": "sentinel",
+                "url": "http://172.17.0.81"
+            },
+            {
+                "name": "skywalking",
+                "url": "http://172.19.0.142:8080/general"
+            },
+            {
+                "name": "springadmin",
+                "url": "http://172.17.0.81/paas-admin-server/login"
+            },
+            {
+                "name": "efk",
+                "url": "http://172.19.0.44:5602/"
+            },
+            {
+                "name": "xxl-job",
+                "url": "http://172.17.0.81/xxl-job-admin"
+            }
+        ]
+    }
+    ,
+      {
+        "groupName": "prod中间件",
+        "sites": [
+                {
+                "name": "nacos",
+                "url": "http://172.17.0.25:8080/nacos/#/login"
+            },
+            {
+                "name": "sentinel",
+                "url": "http://172.17.0.62"
+            },
+            {
+                "name": "skywalking",
+                "url": "http://172.19.0.142:8080/general"
+            },
+            {
+                "name": "springadmin",
+                "url": "http://172.17.0.62/paas-admin-server/login"
+            },
+            {
+                "name": "efk",
+                "url": "http://172.19.0.44:5602/"
+            },
+            {
+                "name": "xxl-job",
+                "url": "http://172.17.0.62/xxl-job-admin"
+            }
+        ]
+    }
+    ,
     {
         "groupName": "boss项目",
         "sites": [
