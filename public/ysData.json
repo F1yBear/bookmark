@@ -169,6 +169,10 @@
             {
                 "name": "xxl-job",
                 "url": "http://172.17.0.81/xxl-job-admin"
+            },
+            {
+                "name": "webfunny",
+                "url": "http://172.19.0.69:8010/webfunny/home.html"
             }
         ]
     }
@@ -224,35 +228,35 @@
             },
             {
                 "name": "dev-saas",
-                "url": "https://dev-saas.boss.yushu.center"
+                "url": "https://dev-saas.yushu.center"
             },
             {
                 "name": "qa-saas",
-                "url": "https://qa-saas.boss.yushu.center"
+                "url": "https://qa-saas.yushu.center"
             },
             {
                 "name": "pre-saas",
-                "url": "https://pre-saas.boss.yushu.center"
+                "url": "https://pre-saas.yushu.center"
             },
             {
                 "name": "prod-saas",
-                "url": "https://saas.boss.yushu.center"
+                "url": "https://saas.yushu.center"
             },
             {
                 "name": "dev-inner",
-                "url": "https://dev-inner.boss.yushu.center"
+                "url": "https://dev-inner.yushu.center"
             },
             {
                 "name": "qa-inner",
-                "url": "https://qa-inner.boss.yushu.center"
+                "url": "https://qa-inner.yushu.center"
             },
             {
                 "name": "pre-inner",
-                "url": "https://pre-inner.boss.yushu.center"
+                "url": "https://pre-inner.yushu.center"
             },
             {
                 "name": "prod-saas",
-                "url": "https://saas.boss.yushu.center"
+                "url": "https://saas.yushu.center"
             },
             {
                 "name": "网关dev",
